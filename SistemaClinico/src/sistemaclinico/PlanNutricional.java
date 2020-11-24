@@ -10,5 +10,14 @@ package sistemaclinico;
  * @author PC
  */
 public class PlanNutricional {
+    protected String description;
+
+    public PlanNutricional() {}
     
+    public PlanNutricional(String description) {
+    
+        this.description = description;
+    
+    }
+
 }
