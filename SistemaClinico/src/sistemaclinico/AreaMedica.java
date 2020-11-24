@@ -5,10 +5,25 @@
  */
 package sistemaclinico;
 
+import java.util.List;
+
 /**
  *
  * @author PC
  */
 public class AreaMedica {
+    
+    protected String especialidad;
+	protected float costo;
+	protected List<Doctor> doctores;
+	
+	public AreaMedica() { }
+
+	public AreaMedica(String especialidad, float costo) {
+	
+		this.especialidad = especialidad;
+		this.costo = costo;
+	
+    }
     
 }
