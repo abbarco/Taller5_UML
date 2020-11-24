@@ -11,4 +11,47 @@ package sistemaclinico;
  */
 public class Persona {
     
+	protected String usuario;
+	protected String clave;
+	protected String nombre;
+	protected String apellido;
+	protected String cedula;
+	protected String direccion;
+	protected Date fechaNacimiento;
+
+	public Persona() {
+	
+		nombre = apellido = clave = cedula = direccion = null;
+		fechaNacimiento = null;
+	
+	}
+	
+	public Persona(String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNacimiento) {
+
+		this.usuario = usuario;
+		this.clave = clave;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.cedula = cedula;
+		this.direccion = direccion;
+		this.fechaNacimiento = fechaNacimiento;
+	
+	}
+
+	public boolean logIn() {
+	
+		// Implements
+		
+		return true;
+	
+	}
+
+	public boolean logOut() {
+	
+		// Implements
+		
+		return true;
+	
+	}
+	
 }

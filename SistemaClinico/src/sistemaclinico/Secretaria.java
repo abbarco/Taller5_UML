@@ -9,6 +9,27 @@ package sistemaclinico;
  *
  * @author PC
  */
-public class Secretaria {
-    
+public class Secretaria extends Persona {
+protected Doctor doctor;
+	
+	public Secretaria() { }
+	
+	public Secretaria(String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNacimiento) {
+	
+		super(usuario, clave, nombre, apellido, cedula, direccion, fechaNacimiento);
+	
+	}
+	
+	public void verificarCita() {
+	
+		// Implements
+	
+	}
+	
+	public void agendarCita() {
+	
+		// Implements
+		
+	}
+	
 }
