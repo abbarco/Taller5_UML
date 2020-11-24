@@ -10,5 +10,5 @@ package sistemaclinico;
  * @author PC
  */
 public interface Pago {
-    
+    public boolean realizarPago(float Monto);
 }

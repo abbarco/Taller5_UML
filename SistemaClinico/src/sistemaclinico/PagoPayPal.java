@@ -9,6 +9,19 @@ package sistemaclinico;
  *
  * @author PC
  */
-public class PagoPayPal {
+public class PagoPayPal implements Pago {
+    protected String email;
+    protected float monto;
+
+    public PagoPayPal(String email, float monto) {
+        this.email = email;
+        this.monto = monto;
+    }
     
+    @Override
+    public boolean realizarPago(float Monto) {
+        // Implements
+        
+        return true;
+    }
 }
