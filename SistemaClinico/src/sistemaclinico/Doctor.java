@@ -1,5 +1,11 @@
+package sistemaclinico;
+
 import java.util.Date;
 import java.util.List;
+import sistemaclinico.AreaMedica;
+import sistemaclinico.Cita;
+import sistemaclinico.Persona;
+import sistemaclinico.Secretaria;
 
 /**
  *

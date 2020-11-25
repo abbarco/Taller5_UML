@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author PC
  */
-public class Cita {
+public class Cita implements Pago{
     
     protected Date fecha;
 	protected boolean pagada;

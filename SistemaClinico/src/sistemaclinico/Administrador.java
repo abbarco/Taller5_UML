@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author PC
  */
-public class Administrador {
+public class Administrador extends Persona{
     
     protected List<Persona> registradosPor;
 	
@@ -21,8 +21,7 @@ public class Administrador {
 	public Administrador(String usuario, String clave, String nombre, 
 		String apellido, String cedula, String direccion, Date fechaNacimiento) {
 		
-		super(usuario, clave, nombre, apellido, cedula, direccion, 
-			fechaNacimiento);
+		super(usuario, clave, nombre, apellido, cedula, direccion,fechaNacimiento);
 		
 	}
 	
