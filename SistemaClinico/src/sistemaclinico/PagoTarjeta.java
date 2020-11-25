@@ -28,7 +28,7 @@ public class PagoTarjeta implements Pago{
         this.banco = banco;
     }
     
-    
+    @Override
     public boolean realizarPago(float Monto) {
     
         // Implements

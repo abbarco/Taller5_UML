@@ -1,5 +1,6 @@
 package sistemaclinico;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import sistemaclinico.AreaMedica;
@@ -20,11 +21,7 @@ public class Doctor extends Persona {
     protected AreaMedica area;
     
     public Doctor() {
-    
-        super();
-        this.secretaria = new Secretaria();
-        this.area = new AreaMedica();
-    
+        this.citasPendientes=new ArrayList<>();
     }
 
     public Doctor(String usuario, String clave, String nombre, String apellido, 
@@ -32,7 +29,8 @@ public class Doctor extends Persona {
     
         super(usuario, clave, nombre, apellido, cedula, direccion, 
             fechaNacimiento);
-    
+        
+        this.citasPendientes=new ArrayList<>();
     }
     
     public void recetar() {

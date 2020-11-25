@@ -1,4 +1,5 @@
 package sistemaclinico;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -21,7 +22,7 @@ public class Paciente extends Persona {
             fechaNacimiento);
 
         this.email = email;
-        
+        this.recetas=new ArrayList<>();
     }
 
     public boolean solicitarCita() {

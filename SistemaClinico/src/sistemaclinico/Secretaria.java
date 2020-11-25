@@ -5,33 +5,38 @@
  */
 package sistemaclinico;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  *
  * @author PC
  */
 public class Secretaria extends Persona {
-protected Doctor doctor;
+    protected Doctor doctor;
+    protected List<Cita> citas;
 	
-	public Secretaria() { }
-	
-	public Secretaria(String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNacimiento) {
-	
-		super(usuario, clave, nombre, apellido, cedula, direccion, fechaNacimiento);
-	
-	}
-	
-	public void verificarCita() {
-	
-		// Implements
-	
-	}
-	
-	public void agendarCita() {
-	
-		// Implements
-		
-	}
+    public Secretaria() { 
+        this.citas= new ArrayList<>();
+    }
+
+    public Secretaria(String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNacimiento) {
+
+        super(usuario, clave, nombre, apellido, cedula, direccion, fechaNacimiento);
+        this.citas= new ArrayList<>();
+    }
+
+    public void verificarCita() {
+
+        // Implements
+
+    }
+
+    public void agendarCita() {
+
+        // Implements
+
+    }
 	
 }

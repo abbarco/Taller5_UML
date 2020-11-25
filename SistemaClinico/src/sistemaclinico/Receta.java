@@ -5,6 +5,7 @@
  */
 package sistemaclinico;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -13,25 +14,27 @@ import java.util.List;
  * @author PC
  */
 public class Receta {
-protected Date fecha;
-	protected List<Medicamento> medicamentos;
-	protected PlanNutricional planNut;
-	protected Paciente paciente;
-	protected Doctor doctor;
+    protected Date fecha;
+    protected List<Medicamento> medicamentos;
+    protected PlanNutricional planNut;
+    protected Paciente paciente;
+    protected Doctor doctor;
 
-	public Receta() {
-	
-		this.planNut = new PlanNutricional();
-		this.paciente = new Paciente();
-		this.doctor = new Doctor();
-		
-	}
-	
-	public Receta(Date fecha) {
-	
-		this.fecha = fecha;
-	
-	}
+    public Receta() {
+        
+        this.medicamentos=new ArrayList<>();
+
+    }
+
+    public Receta(Date fecha) {
+
+        this.fecha = fecha;
+        this.planNut = new PlanNutricional();
+        this.paciente = new Paciente();
+        this.doctor = new Doctor();
+        this.medicamentos=new ArrayList<>();
+
+    }
 	
     
 

@@ -5,6 +5,7 @@
  */
 package sistemaclinico;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -16,16 +17,16 @@ public class Administrador extends Persona{
     
     protected List<Persona> registradosPor;
 	
-	public Administrador() { }
+	public Administrador() {}
 	
 	public Administrador(String usuario, String clave, String nombre, 
 		String apellido, String cedula, String direccion, Date fechaNacimiento) {
 		
 		super(usuario, clave, nombre, apellido, cedula, direccion,fechaNacimiento);
-		
+		this.registradosPor= new ArrayList<>();
 	}
 	
-	public void registrarPersona() {
+	public void registrarUsuario() {
 	
 		// Implements
 	

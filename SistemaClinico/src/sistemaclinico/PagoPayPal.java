@@ -13,6 +13,8 @@ public class PagoPayPal implements Pago {
     protected String email;
     protected float monto;
 
+    public PagoPayPal() {}
+    
     public PagoPayPal(String email, float monto) {
         this.email = email;
         this.monto = monto;

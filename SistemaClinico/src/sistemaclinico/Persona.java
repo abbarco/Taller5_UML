@@ -21,12 +21,7 @@ public class Persona {
 	protected String direccion;
 	protected Date fechaNacimiento;
 
-	public Persona() {
-	
-		nombre = apellido = clave = cedula = direccion = null;
-		fechaNacimiento = null;
-	
-	}
+	public Persona() {}
 	
 	public Persona(String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNacimiento) {
 
