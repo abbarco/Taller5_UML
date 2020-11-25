@@ -1,3 +1,9 @@
+package sistemaclinico;
+
+/**
+ *
+ * 
+ */
 public class Medicamento {
     
     protected String medicina;

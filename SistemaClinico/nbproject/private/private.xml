@@ -2,20 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/PagoEfectivo.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/PagoTarjeta.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/Persona.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/AreaMedica.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/Pago.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/Doctor.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/HistoriaClinica.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/Administrador.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/Receta.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/Paciente.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/PlanNutricional.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/PagoPayPal.java</file>
-            <file>file:/C:/Users/PC/Desktop/Estructuras%20de%20datos%20final/SistemaClinico/src/sistemaclinico/Secretaria.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
