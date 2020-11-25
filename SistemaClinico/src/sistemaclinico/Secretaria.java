@@ -5,6 +5,8 @@
  */
 package sistemaclinico;
 
+import java.util.Date;
+
 /**
  *
  * @author PC
